@@ -1,5 +1,3 @@
-# <div align="center"><img src="assets/profile-banner.png" width="100%" alt="Acadify Solution — Enterprise AI & Product Engineering Partner"></div>
-
 <div align="center">
   <h3>Elite Engineering Collective & AI Deployment Partner</h3>
   <p>We help startups and enterprises build, deploy, and scale high-reliability AI products, custom LLM pipelines, and secure cloud infrastructure.</p>
