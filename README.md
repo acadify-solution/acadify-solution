@@ -1,31 +1,79 @@
 <div align="center">
-  <img src="assets/profile-animation.svg" width="100%" alt="Acadify Solution — Systems Lab Banner">
+  <img src="https://raw.githubusercontent.com/acadify-solution/acadify-solution/main/assets/profile-animation.svg" width="100%" alt="Acadify Solution — Systems Lab Banner">
 </div>
-
-<br>
-
-A remote engineering partner of 28 senior developers building high-reliability AI products, scalable SaaS platforms, and secure cloud infrastructure. We partner with founders, CTOs, and product teams who need production-ready, secure, and compliant software.
-
-**[acadifysolution.com](https://acadifysolution.com)** &nbsp;|&nbsp; **[AI Testing Lab](https://ai-testing.acadifysolution.com)** &nbsp;|&nbsp; **[Verified Reviews (Clutch)](https://clutch.co/profile/acadify-solution)** &nbsp;|&nbsp; **[Book a Call](https://calendly.com/acadify-online/30min)**
 
 <br>
 
 <div align="center">
-  <a href="https://github.com/acadify-solution"><img src="https://img.shields.io/badge/GitHub-Technology_Partner-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Technology Partner"></a>
-  <a href="https://acadifysolution.com/pages/partners/anthropic.html"><img src="https://img.shields.io/badge/Anthropic-Network_Partner-F4F4F0?style=for-the-badge&logo=anthropic&logoColor=191919" alt="Anthropic Network Partner"></a>
+  <p><b>Distributed engineering partner of 28 senior developers building high-reliability AI products, scalable SaaS platforms, and secure cloud infrastructure.</b></p>
+  <p>
+    <a href="https://acadifysolution.com">Website</a> &nbsp;•&nbsp; 
+    <a href="https://ai-testing.acadifysolution.com">AI Testing Lab</a> &nbsp;•&nbsp; 
+    <a href="https://clutch.co/profile/acadify-solution">Verified Clutch Reviews</a> &nbsp;•&nbsp; 
+    <a href="https://calendly.com/acadify-online/30min">Book a Call</a>
+  </p>
+  <p>
+    <a href="https://github.com/acadify-solution"><img src="https://img.shields.io/badge/GitHub-Technology_Partner-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Technology Partner"></a>
+    <a href="https://acadifysolution.com/pages/partners/anthropic.html"><img src="https://img.shields.io/badge/Anthropic-Network_Partner-F4F4F0?style=for-the-badge&logo=anthropic&logoColor=191919" alt="Anthropic Network Partner"></a>
+  </p>
 </div>
 
 ---
 
-### 🛠️ Core Technology Stack
+## 🛡️ Software Quality & Compliance Standards
+To maintain the highest tier of engineering discipline, all Acadify Solution projects implement strict quality baselines:
 
-| AI & Data Systems | Cloud & Infrastructure | Frameworks & Languages |
-| :--- | :--- | :--- |
-| • Custom LLMs & Fine-tuning (QLoRA)<br>• RAG Pipelines (Pinecone / Qdrant)<br>• Multi-Agent Systems (CrewAI / LangChain)<br>• Model Evals & Hallucination Checks<br>• Vector Databases (pgvector) | • Infrastructure-as-Code (Terraform)<br>• Containerization (Kubernetes / Docker)<br>• Serverless & Event-Driven Apps<br>• Zero-Trust Network Topologies<br>• AWS, Google Cloud, Azure | • Backend Services (FastAPI / Node.js)<br>• Web Platforms (Next.js / TypeScript)<br>• Languages (Python / Go / Rust)<br>• Testing (Playwright / QA Automation)<br>• Secure Proxies (HIPAA / PHI Redaction) |
+*   **Security & Compliance by Design:** 
+    *   **PII Masking:** Custom interceptors automatically sanitize personally identifiable information (PII) before routing to model gateways.
+    *   **HIPAA & SOC2 Alignment:** Modular zero-trust proxies and auditing script libraries ensure clinical and financial workloads remain compliant.
+*   **Rigorous Test Coverage:** 
+    *   Mandatory regression suites using Playwright for automated user flows.
+    *   Unit testing benchmarks for APIs and data pipelines using PyTorch and FastAPI mocks.
+*   **Disciplined SDLC:** 
+    *   Mandatory peer reviews, static analysis (CI linting), and vulnerability scans run on every PR before merge.
 
 ---
 
-### 🗺️ Open-Source Reference Architectures (21 Blueprints)
+## 🛠️ Core Technology Stack
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🤖 AI &amp; Data Systems</h4>
+      <ul>
+        <li>Custom LLMs &amp; QLoRA Fine-tuning</li>
+        <li>RAG Pipelines (Pinecone / Qdrant)</li>
+        <li>Multi-Agent Systems (CrewAI / LangChain)</li>
+        <li>LLM Evals &amp; Hallucination Checks</li>
+        <li>Vector Databases (pgvector)</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>☁️ Infrastructure &amp; Security</h4>
+      <ul>
+        <li>Infrastructure-as-Code (Terraform)</li>
+        <li>Containerization (Kubernetes / Docker)</li>
+        <li>Serverless Event-Driven Architectures</li>
+        <li>Zero-Trust Networks (Cloudflare / Tailscale)</li>
+        <li>Multi-Cloud (AWS / GCP / Azure)</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>💻 Web &amp; Backend Engineering</h4>
+      <ul>
+        <li>Next.js &amp; TypeScript Web Apps</li>
+        <li>FastAPI &amp; Node.js APIs</li>
+        <li>Languages (Python / Go / Rust)</li>
+        <li>End-to-End QA (Playwright)</li>
+        <li>HIPAA / PHI Anonymizer Proxies</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🗺️ Open-Source Reference Architectures (21 Blueprints)
 We share our internal boilerplates, security configurations, and reference implementations to help engineering teams build secure and scalable systems faster.
 
 <details>
@@ -33,7 +81,7 @@ We share our internal boilerplates, security configurations, and reference imple
 <br>
 
 *   [`acadify-solution`](https://github.com/acadify-solution/acadify-solution) — **[Active 🟢]** Global landing profile repository demonstrating our identity, telemetry dashboard, and engineering stacks.
-*   [`engineering-standards`](https://github.com/acadify-solution/engineering-standards) — **[Roadmap 🛠️]** Code guidelines detailing Git workflows, peer review protocols, CI checks, and compliance guidelines.
+*   [`engineering-standards`](https://github.com/acadify-solution/engineering-standards) — **[Roadmap 🛠️]** Markdown blueprints detailing git branching models, automated linting setups, secure peer review checklists, and branching standards.
 
 </details>
 
@@ -83,34 +131,6 @@ We share our internal boilerplates, security configurations, and reference imple
 *   [`developer-productivity-cli`](https://github.com/acadify-solution/developer-productivity-cli) — **[Roadmap 🛠️]** CLI tool written in Go to scaffold enterprise repositories according to Acadify standard engineering structures.
 
 </details>
-
----
-
-### 📊 Github Analytical Insights
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=acadify-solution&show_icons=true&theme=calm&title_color=cf6b48&icon_color=cf6b48&bg_color=0f172a&text_color=e2e8f0" alt="Acadify GitHub Stats">
-      </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=acadify-solution&layout=compact&theme=calm&title_color=cf6b48&bg_color=0f172a&text_color=e2e8f0" alt="Acadify Top Languages">
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-### 🐍 Contribution Activity
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/acadify-solution/acadify-solution/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/acadify-solution/acadify-solution/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/acadify-solution/acadify-solution/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
-</div>
 
 ---
 
