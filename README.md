@@ -36,37 +36,28 @@ To maintain the highest tier of engineering discipline, all Acadify Solution pro
 
 ## 🛠️ Core Technology Stack
 
-<table width="100%">
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
   <tr>
-    <td width="33%" valign="top">
-      <h4>🤖 AI &amp; Data Systems</h4>
-      <ul>
-        <li>Custom LLMs &amp; QLoRA Fine-tuning</li>
-        <li>RAG Pipelines (Pinecone / Qdrant)</li>
-        <li>Multi-Agent Systems (CrewAI / LangChain)</li>
-        <li>LLM Evals &amp; Hallucination Checks</li>
-        <li>Vector Databases (pgvector)</li>
-      </ul>
+    <td width="33%" valign="top" style="border-right: 1px solid #2d3748; padding-right: 15px;">
+      <h3>🤖 AI &amp; Data Systems</h3>
+      <p><b>Fine-tuning &amp; Training</b><br><code>PyTorch</code> &nbsp;•&nbsp; <code>QLoRA</code> &nbsp;•&nbsp; <code>PEFT</code> &nbsp;•&nbsp; <code>HuggingFace</code></p>
+      <p><b>Vector Search &amp; RAG</b><br><code>Pinecone</code> &nbsp;•&nbsp; <code>Qdrant</code> &nbsp;•&nbsp; <code>pgvector</code> &nbsp;•&nbsp; <code>Redis</code></p>
+      <p><b>Agent Orchestration</b><br><code>CrewAI</code> &nbsp;•&nbsp; <code>LangChain</code> &nbsp;•&nbsp; <code>LlamaIndex</code></p>
+      <p><b>Model Evaluation</b><br><code>Evals SDK</code> &nbsp;•&nbsp; <code>Hallucination Scoring</code></p>
     </td>
-    <td width="33%" valign="top">
-      <h4>☁️ Infrastructure &amp; Security</h4>
-      <ul>
-        <li>Infrastructure-as-Code (Terraform)</li>
-        <li>Containerization (Kubernetes / Docker)</li>
-        <li>Serverless Event-Driven Architectures</li>
-        <li>Zero-Trust Networks (Cloudflare / Tailscale)</li>
-        <li>Multi-Cloud (AWS / GCP / Azure)</li>
-      </ul>
+    <td width="33%" valign="top" style="border-right: 1px solid #2d3748; padding-left: 15px; padding-right: 15px;">
+      <h3>☁️ Cloud &amp; Infrastructure</h3>
+      <p><b>Orchestration &amp; IaC</b><br><code>Terraform</code> &nbsp;•&nbsp; <code>Kubernetes (GKE/EKS)</code> &nbsp;•&nbsp; <code>Docker</code></p>
+      <p><b>Serverless &amp; Microservices</b><br><code>AWS Lambda</code> &nbsp;•&nbsp; <code>EventBridge</code> &nbsp;•&nbsp; <code>SQS/SNS</code></p>
+      <p><b>Zero-Trust Network Topologies</b><br><code>Cloudflare Access</code> &nbsp;•&nbsp; <code>Tailscale Secure Mesh</code></p>
+      <p><b>Multi-Cloud Management</b><br><code>AWS</code> &nbsp;•&nbsp; <code>Google Cloud</code> &nbsp;•&nbsp; <code>Microsoft Azure</code></p>
     </td>
-    <td width="33%" valign="top">
-      <h4>💻 Web &amp; Backend Engineering</h4>
-      <ul>
-        <li>Next.js &amp; TypeScript Web Apps</li>
-        <li>FastAPI &amp; Node.js APIs</li>
-        <li>Languages (Python / Go / Rust)</li>
-        <li>End-to-End QA (Playwright)</li>
-        <li>HIPAA / PHI Anonymizer Proxies</li>
-      </ul>
+    <td width="33%" valign="top" style="padding-left: 15px;">
+      <h3>💻 Web &amp; Backend Engineering</h3>
+      <p><b>Runtime &amp; APIs</b><br><code>FastAPI (Python)</code> &nbsp;•&nbsp; <code>Node.js (TypeScript)</code></p>
+      <p><b>Web &amp; User Experience</b><br><code>Next.js</code> &nbsp;•&nbsp; <code>React</code> &nbsp;•&nbsp; <code>TailwindCSS</code></p>
+      <p><b>Core Languages</b><br><code>Python</code> &nbsp;•&nbsp; <code>TypeScript</code> &nbsp;•&nbsp; <code>Go</code> &nbsp;•&nbsp; <code>Rust</code></p>
+      <p><b>Verification &amp; Security</b><br><code>Playwright (E2E)</code> &nbsp;•&nbsp; <code>HIPAA/PCI Proxies</code></p>
     </td>
   </tr>
 </table>
